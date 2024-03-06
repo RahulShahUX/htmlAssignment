@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body, input, button {
+    font-family: "Roboto", sans-serif;
+}
+.page-container {
+    display: flex;
+    justify-content: center;
+}
+.page-box {
+    width: 350px;
+    border: 1px solid #eee;
+    padding: 10px 20px 20px 20px;
+    border-radius: 2px;
+}
+.text-center {
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group.mb-0 {
+    margin-bottom: 0;
+}
+.form-control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 15px;
+    width: calc(100% - 30px);
+}
+.form-control.w-100 {
+    width: 100%;
+    padding: 10px;
+}
+.btn {
+    background-color: #0069d9;
+    border: 1px solid #0069d9;
+    color: #fff;
+    width: 100%;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: #007bff;
+    border: 1px solid #007bff;
+}
+.pwd-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.check-row {
+    display: flex;
+    font-size: 14px;
+    cursor: pointer;
+}
+.btn-link {
+    background-color: transparent;
+    border: none;
+    text-decoration: underline;
+    font-size: 14px;
+    padding: 0;
+    cursor: pointer;
+}
+.account-row {
+    display: flex;
+    font-size: 14px;
+}
+.account-row .btn-link {
+    margin-left: 5px;
+}
